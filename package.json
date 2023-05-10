@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test1": "jest --collect-coverage",
     "prepare": "husky install",
-    "type": "module"
+    "type": "module",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
